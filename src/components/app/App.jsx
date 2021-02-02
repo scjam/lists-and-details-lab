@@ -5,7 +5,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
-import Home from './containers/home/Home';
+import AllCharacters from '../character/AllCharacters';
 import Details from './containers/details/Details';
 
 export default class App extends React.Component {
@@ -18,7 +18,7 @@ export default class App extends React.Component {
               <Route 
                 path="/"
                 exact
-                component = { Home }
+                component = { AllCharacters }
               />
               <Route 
                 path="/details"
