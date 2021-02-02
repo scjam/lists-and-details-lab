@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { getCharacters } from '../../services/heyArnoldCharacters.js';
-import CharacterList from './CharacterList.jsx';
+import CharacterList from '../character/CharacterList.jsx';
 
 export default class AllCharacters extends Component {
   state = {
