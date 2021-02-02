@@ -6,7 +6,7 @@ import {
   Switch
 } from 'react-router-dom';
 import AllCharacters from '../../containers/all-characters/AllCharacters';
-import Details from './../../containers/details/Details';
+import CharacterDetails from './../../containers/character/CharacterDetails';
 
 export default class App extends React.Component {
   render() {
@@ -23,7 +23,7 @@ export default class App extends React.Component {
               <Route 
                 path="/details"
                 exact
-                component = { Details }
+                component = { CharacterDetails }
               />
             </Switch>
           </Router>
