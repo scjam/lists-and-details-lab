@@ -6,7 +6,7 @@ import {
   Switch
 } from 'react-router-dom';
 import AllCharacters from './../../containers/character/AllCharacters';
-import Details from './containers/details/Details';
+import Details from './../../containers/details/Details';
 
 export default class App extends React.Component {
   render() {
