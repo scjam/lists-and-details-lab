@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { getCharacters } from '../../services/heyArnoldCharacters.js';
 import CharacterList from './CharacterList.jsx';
 
-export default class details extends Component {
+export default class AllCharacters extends Component {
   state = {
     characters: []
   }

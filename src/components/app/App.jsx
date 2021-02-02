@@ -5,7 +5,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
-import AllCharacters from 'src/containers/character/AllCharacters.jsx';
+import AllCharacters from './../../containers/character/AllCharacters';
 import Details from './containers/details/Details';
 
 export default class App extends React.Component {
