@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+//import './App.css';
 import {
   BrowserRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';
 import AllCharacters from '../../containers/all-characters/AllCharacters';
-import CharacterDetails from './../../containers/character/CharacterDetails';
+import Details from './../../containers/Details/Details';
 
 export default class App extends React.Component {
   render() {
@@ -21,9 +21,9 @@ export default class App extends React.Component {
                 component = { AllCharacters }
               />
               <Route 
-                path="/details"
+                path="/details/:id"
                 exact
-                component = { CharacterDetails }
+                component = { Details }
               />
             </Switch>
           </Router>
