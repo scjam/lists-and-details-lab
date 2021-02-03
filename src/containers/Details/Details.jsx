@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react';
 import { getCharacterById } from '../../services/heyArnoldCharacters';
-import CharacterDetails from '../character/CharacterDetails';
+import CharacterDetails from '../../components/character/CharacterDetails';
 
 export default class Details extends Component {
   state = {
